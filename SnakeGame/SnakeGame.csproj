@@ -9,11 +9,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\anaconda.png" />
+    <None Remove="Resources\apple.png" />
+    <None Remove="Resources\goldenApple.png" />
     <None Remove="Resources\OCRAEXT.TTF" />
+    <None Remove="Resources\reviveApple.png" />
+    <None Remove="Resources\snake.png" />
+    <None Remove="Resources\toxicApple.png" />
+    <None Remove="Resources\trippleApple.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\OCRAEXT.TTF" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\anaconda.png" />
+    <Resource Include="Resources\apple.png" />
+    <Resource Include="Resources\goldenApple.png" />
+    <Resource Include="Resources\reviveApple.png" />
+    <Resource Include="Resources\snake.png" />
+    <Resource Include="Resources\toxicApple.png" />
+    <Resource Include="Resources\trippleApple.png" />
   </ItemGroup>
 
   <ItemGroup>

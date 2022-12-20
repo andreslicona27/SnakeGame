@@ -45,16 +45,16 @@
             // 
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.Size = new System.Drawing.Size(100, 20);
             this.label1.TabIndex = 6;
             // 
             // lblTitle1
             // 
-            this.lblTitle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTitle1.Font = new System.Drawing.Font("OCR A Extended", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblTitle1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTitle1.Location = new System.Drawing.Point(66, 59);
+            this.lblTitle1.Location = new System.Drawing.Point(66, 51);
             this.lblTitle1.Name = "lblTitle1";
-            this.lblTitle1.Size = new System.Drawing.Size(345, 150);
+            this.lblTitle1.Size = new System.Drawing.Size(345, 148);
             this.lblTitle1.TabIndex = 1;
             this.lblTitle1.Text = "Welcome to Snake";
             this.lblTitle1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -62,9 +62,9 @@
             // pbSnake
             // 
             this.pbSnake.Image = global::SnakeGame.Properties.Resources.snake;
-            this.pbSnake.Location = new System.Drawing.Point(90, 264);
+            this.pbSnake.Location = new System.Drawing.Point(95, 229);
             this.pbSnake.Name = "pbSnake";
-            this.pbSnake.Size = new System.Drawing.Size(104, 110);
+            this.pbSnake.Size = new System.Drawing.Size(119, 113);
             this.pbSnake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbSnake.TabIndex = 2;
             this.pbSnake.TabStop = false;
@@ -78,9 +78,9 @@
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnPlay.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnPlay.Location = new System.Drawing.Point(281, 264);
+            this.btnPlay.Location = new System.Drawing.Point(281, 229);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(80, 25);
+            this.btnPlay.Size = new System.Drawing.Size(80, 22);
             this.btnPlay.TabIndex = 3;
             this.btnPlay.Text = "Play Game";
             this.btnPlay.UseVisualStyleBackColor = false;
@@ -95,7 +95,7 @@
             this.btnHSTable.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHSTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHSTable.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnHSTable.Location = new System.Drawing.Point(281, 326);
+            this.btnHSTable.Location = new System.Drawing.Point(281, 283);
             this.btnHSTable.Name = "btnHSTable";
             this.btnHSTable.Size = new System.Drawing.Size(80, 25);
             this.btnHSTable.TabIndex = 4;
@@ -112,7 +112,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnExit.Location = new System.Drawing.Point(281, 357);
+            this.btnExit.Location = new System.Drawing.Point(281, 309);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(80, 25);
             this.btnExit.TabIndex = 5;
@@ -134,9 +134,9 @@
             this.btnHowToPlay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHowToPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHowToPlay.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnHowToPlay.Location = new System.Drawing.Point(281, 295);
+            this.btnHowToPlay.Location = new System.Drawing.Point(281, 256);
             this.btnHowToPlay.Name = "btnHowToPlay";
-            this.btnHowToPlay.Size = new System.Drawing.Size(80, 25);
+            this.btnHowToPlay.Size = new System.Drawing.Size(80, 22);
             this.btnHowToPlay.TabIndex = 7;
             this.btnHowToPlay.Text = "How to Play";
             this.btnHowToPlay.UseVisualStyleBackColor = false;
@@ -144,10 +144,10 @@
             // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(500, 500);
+            this.ClientSize = new System.Drawing.Size(500, 433);
             this.Controls.Add(this.btnHowToPlay);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnHSTable);
@@ -156,6 +156,7 @@
             this.Controls.Add(this.lblTitle1);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Font = new System.Drawing.Font("OCR A Extended", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
             this.ShowIcon = false;
