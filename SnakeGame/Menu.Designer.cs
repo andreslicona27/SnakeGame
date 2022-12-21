@@ -76,11 +76,11 @@
             this.btnPlay.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnPlay.FlatAppearance.BorderSize = 0;
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPlay.Font = new System.Drawing.Font("OCR A Extended", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnPlay.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnPlay.Location = new System.Drawing.Point(281, 229);
+            this.btnPlay.Location = new System.Drawing.Point(274, 229);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(80, 22);
+            this.btnPlay.Size = new System.Drawing.Size(98, 22);
             this.btnPlay.TabIndex = 3;
             this.btnPlay.Text = "Play Game";
             this.btnPlay.UseVisualStyleBackColor = false;
@@ -93,11 +93,11 @@
             this.btnHSTable.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnHSTable.FlatAppearance.BorderSize = 0;
             this.btnHSTable.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHSTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHSTable.Font = new System.Drawing.Font("OCR A Extended", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHSTable.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnHSTable.Location = new System.Drawing.Point(281, 283);
+            this.btnHSTable.Location = new System.Drawing.Point(274, 283);
             this.btnHSTable.Name = "btnHSTable";
-            this.btnHSTable.Size = new System.Drawing.Size(80, 25);
+            this.btnHSTable.Size = new System.Drawing.Size(98, 25);
             this.btnHSTable.TabIndex = 4;
             this.btnHSTable.Text = "Scores";
             this.btnHSTable.UseVisualStyleBackColor = false;
@@ -110,11 +110,11 @@
             this.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnExit.FlatAppearance.BorderSize = 0;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExit.Font = new System.Drawing.Font("OCR A Extended", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnExit.Location = new System.Drawing.Point(281, 309);
+            this.btnExit.Location = new System.Drawing.Point(274, 309);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(80, 25);
+            this.btnExit.Size = new System.Drawing.Size(98, 25);
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -132,22 +132,22 @@
             this.btnHowToPlay.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnHowToPlay.FlatAppearance.BorderSize = 0;
             this.btnHowToPlay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHowToPlay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHowToPlay.Font = new System.Drawing.Font("OCR A Extended", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHowToPlay.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnHowToPlay.Location = new System.Drawing.Point(281, 256);
+            this.btnHowToPlay.Location = new System.Drawing.Point(274, 256);
             this.btnHowToPlay.Name = "btnHowToPlay";
-            this.btnHowToPlay.Size = new System.Drawing.Size(80, 22);
+            this.btnHowToPlay.Size = new System.Drawing.Size(98, 22);
             this.btnHowToPlay.TabIndex = 7;
             this.btnHowToPlay.Text = "How to Play";
             this.btnHowToPlay.UseVisualStyleBackColor = false;
-            this.btnHowToPlay.Click += new System.EventHandler(this.btnApples_Click);
+            this.btnHowToPlay.Click += new System.EventHandler(this.btnHowToPlay_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(500, 433);
+            this.ClientSize = new System.Drawing.Size(500, 500);
             this.Controls.Add(this.btnHowToPlay);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnHSTable);

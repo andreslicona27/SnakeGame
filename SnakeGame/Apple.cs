@@ -14,33 +14,33 @@ namespace SnakeGame
 
         // BUILDER 
         public Apple(string type)
-        //{
-        //    switch (type)
-        //    {
-        //        case "normalApple":
-        //            apple = Resources.apple;
-        //            break;
+        {
+            //    switch (type)
+            //    {
+            //        case "normalApple":
+            //            apple = Resources.apple;
+            //            break;
 
-        //        case "reviveApple":
-        //            apple = Resources.reviveApple;
-        //            break;
+            //        case "reviveApple":
+            //            apple = Resources.reviveApple;
+            //            break;
 
-        //        case "timeApple":
-        //            apple = Resources.apple;
-        //            break;
+            //        case "timeApple":
+            //            apple = Resources.apple;
+            //            break;
 
-        //        case "trippleApple":
-        //            apple = Resources.trippleApple;
-        //            break;
+            //        case "trippleApple":
+            //            apple = Resources.trippleApple;
+            //            break;
 
-        //        case "toxicApple":
-        //            apple = Resources.toxicApple;
-        //            break;
+            //        case "toxicApple":
+            //            apple = Resources.toxicApple;
+            //            break;
 
-        //        case "golderApple":
-        //            apple = Resources.goldenApple;
-        //            break;
-        //    }
+            //        case "golderApple":
+            //            apple = Resources.goldenApple;
+            //            break;
+            //    }
         }
 
     }

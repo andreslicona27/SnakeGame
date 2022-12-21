@@ -32,7 +32,8 @@ namespace SnakeGame
             Game g = new Game();
             g.ShowDialog();
         }
-        private void btnApples_Click(object sender, EventArgs e)
+
+        private void btnHowToPlay_Click(object sender, EventArgs e)
         {
             HowToPlay hp = new HowToPlay();
             hp.ShowDialog();

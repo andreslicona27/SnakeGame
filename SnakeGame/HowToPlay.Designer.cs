@@ -32,6 +32,9 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.lblInstructions = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelInstructions = new System.Windows.Forms.Panel();
+            this.panelInstructions.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnBack
@@ -52,9 +55,9 @@
             // 
             // lblInstructions
             // 
-            this.lblInstructions.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblInstructions.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblInstructions.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblInstructions.Location = new System.Drawing.Point(66, 92);
+            this.lblInstructions.Location = new System.Drawing.Point(31, 63);
             this.lblInstructions.Name = "lblInstructions";
             this.lblInstructions.Size = new System.Drawing.Size(349, 110);
             this.lblInstructions.TabIndex = 10;
@@ -62,14 +65,36 @@
             // 
             // lblTitle
             // 
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblTitle.Font = new System.Drawing.Font("OCR A Extended", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTitle.Location = new System.Drawing.Point(70, 33);
+            this.lblTitle.Location = new System.Drawing.Point(31, 16);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(345, 47);
             this.lblTitle.TabIndex = 9;
             this.lblTitle.Text = "How To Play?";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("OCR A Extended", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(31, 185);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(345, 47);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Types of Apples";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panelInstructions
+            // 
+            this.panelInstructions.AutoScroll = true;
+            this.panelInstructions.Controls.Add(this.lblTitle);
+            this.panelInstructions.Controls.Add(this.label1);
+            this.panelInstructions.Controls.Add(this.lblInstructions);
+            this.panelInstructions.Location = new System.Drawing.Point(22, 12);
+            this.panelInstructions.Name = "panelInstructions";
+            this.panelInstructions.Size = new System.Drawing.Size(437, 397);
+            this.panelInstructions.TabIndex = 12;
             // 
             // HowToPlay
             // 
@@ -78,8 +103,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(484, 461);
-            this.Controls.Add(this.lblInstructions);
-            this.Controls.Add(this.lblTitle);
+            this.Controls.Add(this.panelInstructions);
             this.Controls.Add(this.btnBack);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -87,6 +111,8 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HowToPlay";
+            this.Load += new System.EventHandler(this.HowToPlay_Load);
+            this.panelInstructions.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,5 +122,8 @@
         private Button btnBack;
         private Label lblInstructions;
         private Label lblTitle;
+        private Label label1;
+        private Panel panelInstructions;
+        private Label lblname;
     }
 }
